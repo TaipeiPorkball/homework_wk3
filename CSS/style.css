@@ -1,25 +1,38 @@
 
-html
+*
 {
-  background-color:#EDF2C5;
-  max-width:1260px;
-  max-height:940px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  font-family:Helvetica,sans-serif;
 }
+body
+{
+    background-color:#EDF2C5;
+
+}
+
 #background
 {
-  width:940px;
+  width:1260px;
   height:880px;
+  margin: auto;
   background-color:#EDF2C5;
-  margin:0 160px;
+
 }
 
 #vegetable
 {
   font-size:44px;
   font-family:Arial Black;
+  width:271px;
+  height:42px;
   color:#778A50;
-  margin-top:45px;
+  margin-top:53px;
   margin-bottom:8px;
+  margin-left:160px;
   float: left;
 }
 #facebook
@@ -27,7 +40,7 @@ html
   width:25px;
   height:25px;
   float: left;
-  margin-left:487px;
+  margin-left:468px;
   margin-top:73px;
 }
 #instagram
@@ -50,17 +63,17 @@ html
 #login
 {
   width:60px;
-  height:20px;
+  height:25px;
   float: left;
   margin-left:10px;
-  margin-top:71px;
+  margin-top:73px;
   font-size:15px;
   color:#778A50;
   box-shadow: 0px 2px 6px 0px;
   text-align:center;
   font-family:Arial;
   font-weight: bold;
-  border:2px solid #778A50;
+  border:1px solid #778A50;
   border-radius:3px;
   padding-top:5px;
 
@@ -69,18 +82,18 @@ html
 #join
 {
   width:50px;
-  height:20px;
+  height:25px;
   float: left;
   box-shadow: 0px 2px 6px 0px;
   padding-top:5px;
   margin-left:10px;
-  margin-top:71px;
+  margin-top:73px;
   font-size:15px;
   color:#778A50;
   text-align:center;
   font-family:Arial;
   font-weight: bold;
-  border:2px solid #778A50;
+  border:1px solid #778A50;
   border-radius: 3px;
 }
 
@@ -91,8 +104,10 @@ html
     float:left;
     height:44px;
     width:940px;
+    margin-top:16px;
     border-radius:3px;
     box-shadow: 0px 2px 6px 0px;
+    margin-left:160px;
 
 }
 .button-first
@@ -101,10 +116,7 @@ html
   font-family:Arial Black;
   font-size:16px;
   float: left;
-  padding:0 20px;
-  background-color:#778A50;
-  radius:3px;
-  float:left;
+  padding:11px 30px;
   clear: both;
 
 }
@@ -114,21 +126,12 @@ html
   font-family:Arial Black;
   font-size:16px;
   float: left;
-  padding:0 20px;
-  background-color:#778A50;
-  radius:3px;
+  padding:11px 30px;
   float:left;
-  border-radius:3px;
+
 }
 
-#box .button-first
-{
-  margin:10px;
-}
-#box .button
-{
-  margin:10px;
-}
+
 
 #pumpkin
 {
@@ -136,19 +139,21 @@ html
   height: 440px;
   clear: both;
   float: left;
+  margin-left:160px;
   margin-top:20px;
 }
 
 #left-box
 {
-  width:415px;
-  height:25px;
+  width:445px;
+  height:45px;
   clear: both;
   float: left;
   box-shadow: 0px 2px 6px 0px;
   margin-top:30px;
   padding-left:30px;
-  padding-top:15px;
+  padding-top:11px;
+  margin-left:160px;
   padding-bottom:15px;
 
   background-color:#778A50;
@@ -164,26 +169,20 @@ html
 }
 #right-box
 {
-  width:415px;
-  height:25px;
-  float: right;
+  width:445px;
+  height:45px;
+  float: left;
   box-shadow: 0px 2px 6px 0px;
   margin-top:30px;
+  margin-left:50px;
   padding-left:30px;
-  padding-top:15px;
+  padding-top:11px;
   padding-bottom:15px;
   background-color:#778A50;
   border-radius:3px;
 
 }
-#left-box .title
-{
-  margin:0;
-}
-#right-box .title
-{
-  margin:0;
-}
+
 
 #pepper
 {
@@ -191,6 +190,7 @@ html
   height:140px;
   clear:both;
   float: left;
+  margin-left:160px;
   margin-top:15px;
 }
 #carrot
@@ -199,7 +199,7 @@ html
   height:140px;
   float: left;
   margin-top:15px;
-  margin-left:13px;
+  margin-left:12px;
 }
 #corn
 {
@@ -207,15 +207,15 @@ html
   height:140px;
   float: left;
   margin-top:15px;
-  margin-left:13px;
+  margin-left:12px;
 }
 #word-area
 {
-  width:415px;
-  height:132px;
-  float:right;
+  width:445px;
+  height:140px;
+  float:left;
+  margin-left:50px;
   margin-top:15px;
-  padding:4px 15px;
   background-color:#F7FBDA;
 }
 #ask
@@ -223,6 +223,7 @@ html
 
   color:#7D7D7D;
   font-size:12px;
+  margin:16px 15px;
   line-height: 1.33;
   font-family:Arial;
 }
@@ -230,24 +231,25 @@ html
 {
   width:414px;
   height:1px;
+  margin-left:15px;
   background-color:#7D7D7D;
 }
 .connect
 {
+  margin:16px 15px;
   color:#7D7D7D;
   font-size:12px;
-  line-height: 1.83;
+  line-height: 1.53;
   font-family:Arial;
 }
 
 footer
 {
-  width:302px;
-  height:11px;
+  width:100%;
+  margin:0 auto;
+  height:60px;
   background-color:#778A50;
-  margin-top:35px;
-  padding-left: 479px;
-  padding-right:479px;
+  text-align:center;
   padding-top:24px;
   padding-bottom:25px;
   font-size:12px;
